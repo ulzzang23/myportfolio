@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "My Personal Portfolio",
   "scripts": {
-    "dev": "postcss src/input.css -o dist/output.css --watch",
-    "build": "postcss src/input.css -o dist/output.css"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
@@ -12,6 +13,7 @@
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
-    "tailwindcss": "^3.3.2"
+    "tailwindcss": "^3.3.2",
+    "vite": "^7.3.0"
   }
 }
